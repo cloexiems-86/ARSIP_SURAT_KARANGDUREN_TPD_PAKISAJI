@@ -54,12 +54,12 @@ Setiap surat yang diterbitkan akan di-scan dalam bentuk PDF lalu diunggah ke sis
 
 4. Buat database baru di MySQL (contoh: `arsip_surat_lsp`).
 
-5. Import file `database.sql`:
+5. Import file `arsip_surat_lsp.sql`:
    - Via terminal:
      ```bash
-     mysql -u root -p arsip_surat_lsp < database.sql
+     mysql -u root -p arsip_surat < arsip_surat_lsp.sql
      ```
-   - Via phpMyAdmin: pilih database → Import → pilih file `database.sql`.
+   - Via phpMyAdmin: pilih database → Import → pilih file `arsip_surat_lsp.sql`.
 
 6. Jalankan aplikasi:
    - Jika Laravel:
